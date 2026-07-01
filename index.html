@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KW Tech Solutions — Singaporean Business Solutions company specializing in consultancy, UI/UX design, IT solutions, and process-driven strategies.">
+  <meta name="keywords" content="KW Tech Solutions, Singapore, business consultancy, UI/UX design, IT solutions, digital strategy">
+  <meta property="og:title" content="KW Tech Solutions | Smarter Solutions. Better Business Outcomes.">
+  <meta property="og:description" content="Experienced consultants helping companies in Singapore and beyond achieve more with less through tailored, process-driven strategies.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_SG">
+  <title>KW Tech Solutions | Smarter Solutions. Better Business Outcomes.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&family=Inter:wght@400&family=Space+Grotesk:wght@300;400;500;600;700&family=Stack+Sans+Headline:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "KW Tech Solutions Pte Ltd",
+    "url": "https://www.kwtechsolutions.com.sg",
+    "email": "enquiries@kwtechsolutions.com.sg",
+    "telephone": "+65-6040-6692",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "SG"
+    },
+    "description": "Singaporean Business Solutions company specializing in consultancy, UI/UX design, and IT solutions."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========== HEADER & HERO ========== -->
+  <header class="site-header" id="home">
+    <div class="site-header__bg" aria-hidden="true">
+      <img src="assets/images/hero-bg.jpg" alt="" width="1907" height="1272">
+      <div class="site-header__overlay"></div>
+    </div>
+
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <a href="index.html" class="site-nav__logo">
+        <img class="site-nav__logo-icon" src="assets/images/logo-icon.svg" alt="KW Tech Solutions logo mark" width="65" height="65">
+        <span class="site-nav__logo-text">
+          <img src="assets/images/logo-text-top.svg" alt="" width="219" height="17">
+          <img src="assets/images/logo-text-bottom.svg" alt="KW Tech Solutions Pte Ltd" width="175" height="5">
+        </span>
+      </a>
+
+      <ul class="site-nav__menu" id="navMenu">
+        <li><a href="index.html" class="is-active">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="grants-funding.html">Grants &amp; Funding Support</a></li>
+        <li><a href="insights.html">Business Growth Insights</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="site-nav__social site-nav__social--desktop">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <img src="assets/images/icons/facebook.svg" alt="" width="30" height="30">
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <img src="assets/images/icons/linkedin.svg" alt="" width="30" height="30">
+        </a>
+      </div>
+
+      <button class="site-nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <div class="hero">
+      <h1 class="hero__title">Smarter Solutions. Better Business Outcomes.</h1>
+      <p class="hero__subtitle">Experienced consultants helping companies in Singapore and beyond achieve more with less through tailored, process-driven strategies.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="about__heading">KW Tech Solutions is a Singaporean Business Solutions company specializing in providing the appropriate Consultancy Solutions.</h2>
+        <div class="about__row">
+          <div class="section-label about__label">
+            <span class="section-label__icon" aria-hidden="true">
+              <img src="assets/images/icons/section-icon.svg" alt="" width="42" height="42">
+            </span>
+            <span class="section-label__text">About us</span>
+          </div>
+          <p class="about__text">Our experts are experienced in various industries and functions, having successfully delivered jobs ranging from human capability, job redesign, process re-engineering, software engineering, business intelligence, data analytics, e-commerce, machine learning, web scraping, and more.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATS ========== -->
+    <section class="stats" aria-label="Company statistics">
+      <div class="container">
+        <div class="stats__grid">
+          <article class="stats__item">
+            <p class="stats__number" data-count="9" data-suffix="+">9+</p>
+            <p class="stats__label">Years of experienced</p>
+          </article>
+          <article class="stats__item">
+            <p class="stats__number" data-count="30" data-suffix="+">30+</p>
+            <p class="stats__label">Projects Delivered</p>
+          </article>
+          <article class="stats__item stats__item--expandable">
+            <p class="stats__number stats__number--static">7</p>
+            <div class="stats__meta">
+              <p class="stats__label">Industries Served</p>
+              <button class="stats__popup-trigger" type="button" aria-expanded="false" aria-controls="stats-industries-popup" aria-label="Open Industries Served">
+                <span class="stats__plus-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="stats__popup" id="stats-industries-popup" hidden role="dialog" aria-modal="true" aria-labelledby="stats-industries-popup-title">
+              <button class="stats__popup-backdrop" type="button" tabindex="-1" aria-label="Close dialog" data-kwte="stats-popup-close"></button>
+              <div class="stats__popup-panel" role="document">
+                <div class="stats__popup-header">
+                  <h3 class="stats__popup-title" id="stats-industries-popup-title">Industries Served</h3>
+                  <button class="stats__popup-close" type="button" aria-label="Close" data-kwte="stats-popup-close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="stats__popup-body">
+                  <ul class="stats__list stats__list--nested">
+                    <li class="stats__list-group">
+                      <span class="stats__list-group-title">Manufacturing</span>
+                      <ul class="stats__sublist">
+                        <li>Paper Products</li>
+                        <li>Stone Fabrication</li>
+                        <li>Aluminium Products</li>
+                        <li>Glass Products</li>
+                      </ul>
+                    </li>
+                    <li class="stats__list-group">
+                      <span class="stats__list-group-title">Services</span>
+                      <ul class="stats__sublist">
+                        <li>Job Portals</li>
+                        <li>Social Media</li>
+                      </ul>
+                    </li>
+                    <li class="stats__list-group">
+                      <span class="stats__list-group-title">E-commerce &amp; Retail (multiple)</span>
+                    </li>
+                    <li class="stats__list-group">
+                      <span class="stats__list-group-title">Built Industry</span>
+                      <ul class="stats__sublist">
+                        <li>Flooring</li>
+                        <li>Renovation</li>
+                      </ul>
+                    </li>
+                    <li class="stats__list-group">
+                      <span class="stats__list-group-title">Private Societies</span>
+                    </li>
+                    <li class="stats__list-group">
+                      <span class="stats__list-group-title">Family Offices</span>
+                    </li>
+                    <li class="stats__list-group">
+                      <span class="stats__list-group-title">Humanitarian Organisations</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="stats__item stats__item--expandable">
+            <p class="stats__number stats__number--static">5</p>
+            <div class="stats__meta">
+              <p class="stats__label">Awards &amp; Recognition</p>
+              <button class="stats__popup-trigger" type="button" aria-expanded="false" aria-controls="stats-awards-popup" aria-label="Open Awards and Recognition">
+                <span class="stats__plus-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="stats__popup" id="stats-awards-popup" hidden role="dialog" aria-modal="true" aria-labelledby="stats-awards-popup-title">
+              <button class="stats__popup-backdrop" type="button" tabindex="-1" aria-label="Close dialog" data-kwte="stats-popup-close"></button>
+              <div class="stats__popup-panel" role="document">
+                <div class="stats__popup-header">
+                  <h3 class="stats__popup-title" id="stats-awards-popup-title">Awards &amp; Recognition</h3>
+                  <button class="stats__popup-close" type="button" aria-label="Close" data-kwte="stats-popup-close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="stats__popup-body">
+                  <ul class="stats__list">
+                    <li>Registered Management Consultant (RMC)</li>
+                    <li>Advanced Certificate in Learning and Performance 2.0 (ACLP 2.0)</li>
+                    <li>Strategic Technology and Operation Roadmapping (STORM)</li>
+                    <li>Certificate of Employment Intermediaries (KAH)</li>
+                    <li>Warehousing Technologies and Management</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="section-blue services" id="services">
+      <div class="container">
+        <div class="section-blue__header">
+          <div class="section-label">
+            <span class="section-label__icon" aria-hidden="true">
+              <img src="assets/images/icons/section-icon.svg" alt="" width="42" height="42">
+            </span>
+            <span class="section-label__text">Services</span>
+          </div>
+          <h2 class="section-heading">Thoughtful aesthetics, robust systems and memorable brand experiences that connects!</h2>
+        </div>
+
+        <div class="services__carousel">
+          <div class="services__viewport">
+            <div class="services__track" id="servicesTrack">
+              <article class="service-card">
+                <div class="service-card__image">
+                  <img src="assets/images/service-1.jpg" alt="Strategy and consulting team meeting" loading="lazy" width="370" height="216">
+                </div>
+                <h3 class="service-card__title">Strategy &amp; Consulting</h3>
+                <p class="service-card__desc">Technical consultancy is essential to grow your business to the next level.</p>
+              </article>
+              <article class="service-card">
+                <div class="service-card__image">
+                  <img src="assets/images/service-2.jpg" alt="UI/UX design collaboration" loading="lazy" width="370" height="216">
+                </div>
+                <h3 class="service-card__title">UI/UX Design</h3>
+                <p class="service-card__desc">Technical consultancy is essential to grow your business to the next level.</p>
+              </article>
+              <article class="service-card">
+                <div class="service-card__image">
+                  <img src="assets/images/service-3.jpg" alt="IT solution implementation" loading="lazy" width="370" height="216">
+                </div>
+                <h3 class="service-card__title">IT Solution</h3>
+                <p class="service-card__desc">Technical consultancy is essential to grow your business to the next level.</p>
+              </article>
+            </div>
+          </div>
+          <button class="services__arrow" id="servicesNext" type="button" aria-label="Next service">
+            <img src="assets/images/icons/services-arrow.svg" alt="" width="18" height="18">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PORTFOLIO ========== -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio__header">
+          <div class="section-label">
+            <span class="section-label__icon" aria-hidden="true">
+              <img src="assets/images/icons/section-icon.svg" alt="" width="42" height="42">
+            </span>
+            <span class="section-label__text">Feature portfolio</span>
+          </div>
+          <h2 class="section-heading">From concept to launch, results you can measure with clarity in message &amp; power in delivery.</h2>
+        </div>
+
+        <div class="portfolio__grid">
+          <article class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img src="assets/images/portfolio.png" alt="Access to Justice website project on laptop" loading="lazy" width="631" height="389">
+            </div>
+            <h3 class="portfolio-card__title">Access to Justice</h3>
+            <div class="portfolio-card__tags">
+              <span class="portfolio-card__tag">Web Design</span>
+              <span class="portfolio-card__tag">Development</span>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img src="assets/images/portfolio.png" alt="Access to Justice website project on laptop" loading="lazy" width="631" height="389">
+            </div>
+            <h3 class="portfolio-card__title">Access to Justice</h3>
+            <div class="portfolio-card__tags">
+              <span class="portfolio-card__tag">Web Design</span>
+              <span class="portfolio-card__tag">Development</span>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img src="assets/images/portfolio.png" alt="Access to Justice website project on laptop" loading="lazy" width="631" height="389">
+            </div>
+            <h3 class="portfolio-card__title">Access to Justice</h3>
+            <div class="portfolio-card__tags">
+              <span class="portfolio-card__tag">Web Design</span>
+              <span class="portfolio-card__tag">Development</span>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-card__image">
+              <img src="assets/images/portfolio.png" alt="Access to Justice website project on laptop" loading="lazy" width="631" height="389">
+            </div>
+            <h3 class="portfolio-card__title">Access to Justice</h3>
+            <div class="portfolio-card__tags">
+              <span class="portfolio-card__tag">Web Design</span>
+              <span class="portfolio-card__tag">Development</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="portfolio__cta">
+          <p class="portfolio__cta-text">Find inspiration for your projects</p>
+          <a href="#portfolio" class="btn-primary">
+            Learn more
+            <img src="assets/images/icons/arrow-cta.svg" alt="" width="30" height="30">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DIVIDER ========== -->
+    <div class="divider" aria-hidden="true">
+      <div class="divider__lines container">
+        <span class="divider__line"></span>
+        <span class="divider__icon">
+          <img src="assets/images/icons/divider-icon.svg" alt="" width="22" height="22">
+        </span>
+        <span class="divider__line"></span>
+      </div>
+    </div>
+
+    <!-- ========== CLIENTS ========== -->
+    <section class="clients" id="clients">
+      <div class="container">
+        <div class="section-label">
+          <span class="section-label__icon" aria-hidden="true">
+            <img src="assets/images/icons/section-icon.svg" alt="" width="42" height="42">
+          </span>
+          <span class="section-label__text">Some of our clients</span>
+        </div>
+
+        <div class="clients__grid">
+          <div class="client-card"><img src="assets/images/client-1.png" alt="Client logo" loading="lazy"></div>
+          <div class="client-card"><img src="assets/images/client-2.png" alt="Client logo" loading="lazy"></div>
+          <div class="client-card"><img src="assets/images/client-3.png" alt="Client logo" loading="lazy"></div>
+          <div class="client-card"><img src="assets/images/client-4.png" alt="Client logo" loading="lazy"></div>
+          <div class="client-card"><img src="assets/images/client-1.png" alt="Client logo" loading="lazy"></div>
+          <div class="client-card"><img src="assets/images/client-spa.png" alt="Singapore Productivity Association" loading="lazy"></div>
+          <div class="client-card"><img src="assets/images/client-mom.png" alt="Ministry of Manpower" loading="lazy"></div>
+          <div class="client-card client-card--link">View All Clients</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== OUR PROCESS ========== -->
+    <section class="section-blue process" id="process">
+      <div class="container">
+        <div class="process__header">
+          <div class="section-label">
+            <span class="section-label__icon" aria-hidden="true">
+              <img src="assets/images/icons/section-icon.svg" alt="" width="42" height="42">
+            </span>
+            <span class="section-label__text">Our process</span>
+          </div>
+          <h2 class="section-heading">Guiding projects from brief to launch, with precision!</h2>
+        </div>
+
+        <div class="process__content">
+          <div>
+            <figure class="process__image">
+              <img src="assets/images/process.png" alt="Team conducting stakeholder interviews" loading="lazy" width="485" height="310">
+            </figure>
+            <p class="process__caption">Conduct Interviews with relevant stakeholders<br>Identify Scope of Pain Points</p>
+          </div>
+
+          <ol class="process__steps">
+            <li class="process__step is-active">
+              <span class="process__step-num">01</span>
+              <span class="process__step-title">Identify &amp; Scope</span>
+            </li>
+            <li class="process__step">
+              <span class="process__step-num">02</span>
+              <span class="process__step-title">Collect &amp; Analyse</span>
+            </li>
+            <li class="process__step">
+              <span class="process__step-num">03</span>
+              <span class="process__step-title">Diagnose &amp; Recommend</span>
+            </li>
+            <li class="process__step">
+              <span class="process__step-num">04</span>
+              <span class="process__step-title">Consensus &amp; Implement</span>
+            </li>
+            <li class="process__step">
+              <span class="process__step-num">05</span>
+              <span class="process__step-title">Review &amp; Conclude</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SUCCESS STORIES ========== -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-label">
+          <span class="section-label__icon" aria-hidden="true">
+            <img src="assets/images/icons/section-icon.svg" alt="" width="42" height="42">
+          </span>
+          <span class="section-label__text">Successful Stories</span>
+        </div>
+        <h2 class="testimonials__heading">Success Stories from Our Partners</h2>
+
+        <div class="testimonials__slider" id="testimonialSlider">
+          <article class="testimonials__slide" data-slide="0">
+            <div class="testimonials__quote-wrap">
+              <blockquote class="testimonials__quote">
+                " How many years has it been since the digital infrastructure used at your company has been updated? Today, we examine the case of Company A, who like many others, faced difficulties with the outdated digital infrastructure that they had in place. This article will provide insights and recommendations about tackling the potential plethora of issues arising from an outdated digital infrastructure."
+              </blockquote>
+              <img class="testimonials__quote-icon" src="assets/images/icons/quote.svg" alt="" width="57" height="57" aria-hidden="true">
+              <div class="testimonials__author">
+                <p class="testimonials__author-name">Tackling A Dated IT Infrastructure</p>
+              </div>
+            </div>
+            <figure class="testimonials__image">
+              <img src="assets/images/testimonial.png" alt="Professional working on digital infrastructure" loading="lazy" width="300" height="325">
+            </figure>
+          </article>
+
+          <article class="testimonials__slide" data-slide="1" hidden>
+            <div class="testimonials__quote-wrap">
+              <blockquote class="testimonials__quote">
+                " KW Tech Solutions transformed our approach to digital strategy. Their consultants brought clarity to complex challenges and delivered measurable results within months of engagement."
+              </blockquote>
+              <img class="testimonials__quote-icon" src="assets/images/icons/quote.svg" alt="" width="57" height="57" aria-hidden="true">
+              <div class="testimonials__author">
+                <p class="testimonials__author-name">Digital Transformation Success</p>
+              </div>
+            </div>
+            <figure class="testimonials__image">
+              <img src="assets/images/testimonial.png" alt="Business professional reviewing strategy" loading="lazy" width="300" height="325">
+            </figure>
+          </article>
+        </div>
+
+        <div class="testimonials__nav">
+          <button class="btn-prev" id="testimonialPrev" aria-label="Previous story">
+            <img src="assets/images/icons/arrow-left.svg" alt="" width="50" height="50">
+          </button>
+          <button class="btn-next" id="testimonialNext" aria-label="Next story">
+            <img src="assets/images/icons/arrow-next.svg" alt="" width="50" height="50">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INSIGHTS / BLOG ========== -->
+    <section class="insights" id="insights">
+      <div class="container">
+        <div class="section-label">
+          <span class="section-label__icon" aria-hidden="true">
+            <img src="assets/images/icons/section-icon.svg" alt="" width="42" height="42">
+          </span>
+          <span class="section-label__text">Industry news and creative strategies</span>
+        </div>
+        <h2 class="section-heading section-heading--center">Latest ideas &amp; insights</h2>
+
+        <div class="insights__grid">
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="assets/images/blog.png" alt="CSR initiative at KW Tech Solutions" loading="lazy" width="409" height="265">
+            </div>
+            <time class="blog-card__date" datetime="2025-12-12">12 Dec 2025</time>
+            <h3 class="blog-card__title">CSR at KW Tech Solutions</h3>
+            <p class="blog-card__excerpt">Our pre-submission diagnosis ensures only projects with high success probability proceed.</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="assets/images/blog.png" alt="CSR initiative at KW Tech Solutions" loading="lazy" width="409" height="265">
+            </div>
+            <time class="blog-card__date" datetime="2025-12-12">12 Dec 2025</time>
+            <h3 class="blog-card__title">CSR at KW Tech Solutions</h3>
+            <p class="blog-card__excerpt">Our pre-submission diagnosis ensures only projects with high success probability proceed.</p>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <img src="assets/images/blog.png" alt="CSR initiative at KW Tech Solutions" loading="lazy" width="409" height="265">
+            </div>
+            <time class="blog-card__date" datetime="2025-12-12">12 Dec 2025</time>
+            <h3 class="blog-card__title">CSR at KW Tech Solutions</h3>
+            <p class="blog-card__excerpt">Our pre-submission diagnosis ensures only projects with high success probability proceed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__links">
+          <div class="footer-col">
+            <h3 class="footer-col__title">About</h3>
+            <nav class="footer-col__list" aria-label="About links">
+              <a href="about-us.html">About Us</a>
+              <a href="about-us.html#team-heading">Our Team</a>
+              <a href="contact.html">Contact Us</a>
+            </nav>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-col__title">Services</h3>
+            <nav class="footer-col__list" aria-label="Services links">
+              <a href="services.html#strategy-consulting">Brand Strategy</a>
+              <a href="services.html#ui-ux-design">UI/UX Design</a>
+              <a href="services.html#enterprise-solutions">Digital Strategy</a>
+              <a href="services.html#e-commerce">Social Media</a>
+              <a href="services.html#it-solutions">Web Development</a>
+            </nav>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-col__title">Resources</h3>
+            <nav class="footer-col__list" aria-label="Resources links">
+              <a href="insights.html">Business Growth Insights</a>
+              <a href="case-studies.html">Case Studies</a>
+              <a href="grants-funding.html">Grants &amp; Funding</a>
+            </nav>
+          </div>
+        </div>
+
+        <div class="site-footer__contact">
+          <p class="site-footer__contact-label">Let's talk now</p>
+          <p class="site-footer__email">
+            <a href="mailto:enquiries@kwtechsolutions.com.sg">enquiries@kwtechsolutions.com.sg</a>
+          </p>
+          <p class="site-footer__phone">
+            <a href="tel:+6560406692">+65 6040 6692</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <div class="site-footer__social">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="assets/images/icons/facebook.svg" alt="" width="30" height="30">
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="assets/images/icons/linkedin.svg" alt="" width="30" height="30">
+          </a>
+        </div>
+        <p class="site-footer__copy">&copy; 2026 KW Tech Solution. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
